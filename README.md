@@ -42,7 +42,7 @@ To clone this project, follow these steps:
 
 ## Contributors
 - **Colin**: Project creator and main contributor.
-- **CodyC1998**: Collaborator and contributor.
+- **[@CodyC1998](https://github.com/CodyC1998)**: Collaborator and contributor.
 
 ## Future Plans
 - Integrating Pygame for simple game development.
