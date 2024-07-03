@@ -19,7 +19,7 @@ To clone this project, follow these steps:
 2. Navigate to the directory where you want to clone the project.
 3. Run the following command:
     ```bash
-    git clone https://github.com/007snoop/Adventure-Game
+    git clone https://github.com/007snoop/Adventure-Game.git
     ```
 4. Navigate to the project directory:
     ```bash
