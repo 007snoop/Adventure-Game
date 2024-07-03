@@ -22,25 +22,25 @@ def main():
     while True:
         # Display game options
         print("\nWhat do you want to do?")
-        print("1. Explore the dungeon")
-        print("2. Talk to the NPC")
-        print("3. Quit\n")
-        while True:
-            choice = input("Enter your choice: ")
+        print("1. Explore the dungeon.")
+        print("2. Approach to the NPC.")
+        print("3. Quit.\n")
+        
+        choice = input("Enter your choice: ")
 
-            if choice == '1':
-                time.sleep(1)
-                dungb.explore_dungeon()
-            elif choice == '2':
-                time.sleep(1)
-                dungb.talk_to_npc()
-            elif choice == '3':
-                print("Thanks for playing!")
-                break
-            else:
-                print("Invalid choice. Try again.")
+        if choice == '1':
+            time.sleep(1)
+            dungb.explore_dungeon()
+        elif choice == '2':
+            time.sleep(1)
+            dungb.talk_to_npc()
+        elif choice == '3':
+            print("Thanks for playing!")
+            break
+        else:
+            print("Invalid choice. Try again.")
 
-        break
+        
 
 if __name__ == "__main__":
     main()
