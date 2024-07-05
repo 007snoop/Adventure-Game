@@ -7,7 +7,7 @@ from modules import window_config as wc
 from modules import dung_build as dungb
 import time
 
-
+# comment here to avoid
 # main game loop
 def main():
     wc.print_centered("Welcome to the RPG Adventure")
